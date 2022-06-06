@@ -38,7 +38,7 @@ function Country() {
 				<input
 					value={searchValue}
 					onChange={e => setSearchValue(e.target.value)}
-					className=" text-center block p-2 w-full rounded text-sm text-gray-900 my-3 border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+					className=" text-center block p-2 w-full rounded text-sm text-gray-900 my-3 border border-gray-300 focus:ring-blue-500 focus:border-blue-500"
 					placeholder="Search country..."
 				/>
 			</div>

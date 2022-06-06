@@ -1,5 +1,4 @@
 // Import logo
-import Logo from "./_partials/Logo";
 import { useState } from "react";
 // Import contants
 import { menuItems } from "./_partials/menuItems";
@@ -70,8 +69,8 @@ function Header() {
 								<NavLink
 									className={({ isActive }) =>
 										isActive
-											? "block px-7 font-medium text-sm text-red-500 px-2 py-4 hover:bg-gray-500 hover:text-red transition duration-300"
-											: "block px-7 font-medium text-sm px-2 py-4 hover:bg-gray-500 hover:text-white transition duration-3000"
+											? "block px-7 font-medium text-sm text-red-500 py-4 hover:bg-gray-500 hover:text-red transition duration-300"
+											: "block px-7 font-medium text-sm py-4 hover:bg-gray-500 hover:text-white transition duration-3000"
 									}
 									to={items.url}
 								>
